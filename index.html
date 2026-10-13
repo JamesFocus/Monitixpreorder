@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Montiix – Limited Preorder | Precision Timepieces</title>
+  <meta name="description" content="Montiix Horizon & Apex – limited preorder of hand-finished mechanical watches. Secure yours before the batch closes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo">MONTIIX</a>
+      <nav class="nav-links">
+        <a href="#collection">Collection</a>
+        <a href="#specs">Specs</a>
+        <a href="#story">Story</a>
+        <a href="#preorder" class="btn-nav">Preorder</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu" id="menuToggle">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Limited Preorder · Batch 01</p>
+      <h1>Time, refined.</h1>
+      <p class="hero-sub">
+        Montiix Horizon and Apex — two mechanical expressions of precision,<br class="hide-sm" />
+        finished by hand, limited to 500 pieces worldwide.
+      </p>
+      <div class="hero-cta">
+        <a href="#preorder" class="btn btn-primary">Secure Preorder</a>
+        <a href="#collection" class="btn btn-ghost">Explore Collection</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <span class="stat-num" id="remainingCount">—</span>
+          <span class="stat-label">Remaining</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div>
+          <span class="stat-num">42mm</span>
+          <span class="stat-label">Case</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div>
+          <span class="stat-num">200m</span>
+          <span class="stat-label">Water</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-watch">
+      <!-- CSS watch face -->
+      <div class="watch-case">
+        <div class="watch-bezel">
+          <div class="watch-dial">
+            <div class="watch-indices"></div>
+            <div class="hand hour"></div>
+            <div class="hand minute"></div>
+            <div class="hand second"></div>
+            <div class="watch-center"></div>
+            <div class="watch-logo">MONTIIX</div>
+          </div>
+        </div>
+        <div class="watch-lugs top"></div>
+        <div class="watch-lugs bottom"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COLLECTION -->
+  <section id="collection" class="section collection">
+    <div class="container">
+      <p class="eyebrow center">The Collection</p>
+      <h2 class="section-title">Two faces of precision</h2>
+
+      <div class="models">
+        <!-- Horizon -->
+        <article class="model-card" data-model="Horizon">
+          <div class="model-visual horizon">
+            <div class="mini-watch">
+              <div class="mw-bezel"><div class="mw-dial"><span>H</span></div></div>
+            </div>
+          </div>
+          <div class="model-info">
+            <h3>Horizon</h3>
+            <p class="model-tag">Dive · Automatic</p>
+            <p class="model-desc">
+              A clean diver with unidirectional bezel, applied indices and
+              Super-LumiNova. Built for depth and daily wear.
+            </p>
+            <ul class="model-points">
+              <li>Miyota 9015 automatic</li>
+              <li>Sapphire crystal, AR coating</li>
+              <li>200 m water resistance</li>
+              <li>Brushed & polished steel</li>
+            </ul>
+            <div class="model-price">
+              <span class="price">$1,290</span>
+              <span class="price-note">Preorder price</span>
+            </div>
+            <button class="btn btn-outline select-model" data-model="Horizon">Select Horizon</button>
+          </div>
+        </article>
+
+        <!-- Apex -->
+        <article class="model-card" data-model="Apex">
+          <div class="model-visual apex">
+            <div class="mini-watch dark">
+              <div class="mw-bezel"><div class="mw-dial"><span>A</span></div></div>
+            </div>
+          </div>
+          <div class="model-info">
+            <h3>Apex</h3>
+            <p class="model-tag">Field · Automatic</p>
+            <p class="model-desc">
+              A tool watch with matte black dial, high-contrast hands and
+              integrated bracelet. Designed for clarity under pressure.
+            </p>
+            <ul class="model-points">
+              <li>Miyota 9015 automatic</li>
+              <li>Domed sapphire crystal</li>
+              <li>100 m water resistance</li>
+              <li>DLC-coated case option</li>
+            </ul>
+            <div class="model-price">
+              <span class="price">$1,190</span>
+              <span class="price-note">Preorder price</span>
+            </div>
+            <button class="btn btn-outline select-model" data-model="Apex">Select Apex</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECS -->
+  <section id="specs" class="section specs">
+    <div class="container">
+      <p class="eyebrow center">Technical</p>
+      <h2 class="section-title">Built to last</h2>
+      <div class="specs-grid">
+        <div class="spec-item">
+          <h4>Movement</h4>
+          <p>Miyota 9015 · 28,800 vph · 42 h power reserve · hacking & hand-winding</p>
+        </div>
+        <div class="spec-item">
+          <h4>Case</h4>
+          <p>316L stainless steel · 42 mm · 12.5 mm thickness · 48 mm lug-to-lug</p>
+        </div>
+        <div class="spec-item">
+          <h4>Crystal</h4>
+          <p>Sapphire with anti-reflective coating · dual-dome on Apex</p>
+        </div>
+        <div class="spec-item">
+          <h4>Lume</h4>
+          <p>Swiss Super-LumiNova C3 · long glow, high legibility</p>
+        </div>
+        <div class="spec-item">
+          <h4>Strap / Bracelet</h4>
+          <p>Solid-link bracelet + additional leather strap included</p>
+        </div>
+        <div class="spec-item">
+          <h4>Warranty</h4>
+          <p>2 years international · service network expanding</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section id="story" class="section story">
+    <div class="container narrow">
+      <p class="eyebrow center">The Story</p>
+      <h2 class="section-title">Why Montiix</h2>
+      <p class="story-text">
+        Montiix was founded on a simple idea: a mechanical watch should feel intentional
+        every time you look at it. No unnecessary complications, no trend-chasing —
+        just honest materials, careful finishing, and movements that keep accurate time
+        for decades.
+      </p>
+      <p class="story-text">
+        Batch 01 is limited to 500 pieces. Every watch is inspected and regulated by hand
+        before it leaves the workshop. Preorder now and you lock in the launch price,
+        priority shipping, and a numbered certificate of authenticity.
+      </p>
+    </div>
+  </section>
+
+  <!-- PREORDER -->
+  <section id="preorder" class="section preorder">
+    <div class="container narrow">
+      <p class="eyebrow center">Secure yours</p>
+      <h2 class="section-title">Preorder Batch 01</h2>
+      <p class="preorder-note">
+        No payment required now. We’ll contact you when production is confirmed
+        and payment is due. Limited to 3 pieces per customer.
+      </p>
+
+      <form id="preorderForm" class="preorder-form" novalidate>
+        <div class="form-row">
+          <div class="field">
+            <label for="name">Full name *</label>
+            <input type="text" id="name" name="name" required placeholder="Alex Morgan" autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="alex@email.com" autocomplete="email" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 555 000 0000" autocomplete="tel" />
+          </div>
+          <div class="field">
+            <label for="model">Model *</label>
+            <select id="model" name="model" required>
+              <option value="">Select model</option>
+              <option value="Horizon">Horizon — $1,290</option>
+              <option value="Apex">Apex — $1,190</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="field">
+            <label for="size">Case size</label>
+            <select id="size" name="size">
+              <option value="42mm" selected>42 mm</option>
+              <option value="40mm">40 mm (waitlist)</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="quantity">Quantity</label>
+            <select id="quantity" name="quantity">
+              <option value="1" selected>1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="notes">Notes (optional)</label>
+          <textarea id="notes" name="notes" rows="3" placeholder="Preferred delivery window, gift message…"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full" id="submitBtn">
+          Confirm Preorder
+        </button>
+      </form>
+
+      <div id="formResult" class="form-result" hidden></div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-brand">MONTIIX</div>
+      <p class="footer-copy">© 2026 Montiix. All rights reserved. Preorder does not guarantee delivery until payment is confirmed.</p>
+    </div>
+  </footer>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>
